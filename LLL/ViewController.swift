@@ -5,6 +5,9 @@
 //  Created by Scholar on 8/1/22.
 //
 
+//this is our final project!!
+//this is really cool
+
 import UIKit
 
 class ViewController: UIViewController {
