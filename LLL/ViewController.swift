@@ -10,6 +10,8 @@
 
 //homepage
 
+//home
+
 import UIKit
 
 class ViewController: UIViewController {
