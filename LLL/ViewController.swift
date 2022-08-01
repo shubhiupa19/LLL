@@ -8,6 +8,8 @@
 //this is our final project!!
 //this is really cool
 
+//homepage
+
 import UIKit
 
 class ViewController: UIViewController {
