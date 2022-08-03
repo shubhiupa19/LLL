@@ -126,6 +126,17 @@
                                     <segue destination="pEX-E5-nTn" kind="presentation" modalPresentationStyle="fullScreen" id="5rO-7r-yGM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6f-dn-BwO">
+                                <rect key="frame" x="317" y="29" width="60" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="5Xl-Gs-3Bu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rog-Pz-twl"/>
                         <color key="backgroundColor" red="0.56078431370000004" green="0.50196078430000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -272,13 +283,15 @@
                                     <segue destination="pEX-E5-nTn" kind="presentation" modalPresentationStyle="fullScreen" id="XfJ-wy-Zh4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4T0-uf-Ds9">
-                                <rect key="frame" x="176" y="831" width="63" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1R-3q-eEH">
+                                <rect key="frame" x="326" y="29" width="60" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="7CO-y8-VnP"/>
+                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="rUl-Z5-6OA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -304,7 +317,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Br-6F-fiz">
-                                <rect key="frame" x="12" y="44" width="390" height="81"/>
+                                <rect key="frame" x="12" y="55" width="390" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -383,6 +396,17 @@
                                     <string>Title</string>
                                 </scopeButtonTitles>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ey-EC-UBO">
+                                <rect key="frame" x="312" y="32" width="60" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="Gae-Xq-T2b"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fQc-j5-V8r"/>
                         <color key="backgroundColor" red="0.56078431370000004" green="0.50196078430000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -578,6 +602,17 @@
                                     <action selector="COVID19ButtonTapped:" destination="1vd-i5-5NC" eventType="touchUpInside" id="cHo-31-u5y"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="he0-ZS-YtO">
+                                <rect key="frame" x="324" y="44" width="60" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="3LS-aW-Hb8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xab-sf-jGV"/>
                         <color key="backgroundColor" red="0.56078431370000004" green="0.50196078430000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -639,13 +674,15 @@
                                 <color key="textColor" red="0.56078431370000004" green="0.79607843140000001" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DZ-Ea-mPe">
-                                <rect key="frame" x="89" y="730" width="236" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXX-kw-Nzp">
+                                <rect key="frame" x="318" y="44" width="60" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="j8O-T7-vAM"/>
+                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="blJ-pw-5lK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -711,13 +748,15 @@
                                 <color key="textColor" red="0.56078431370000004" green="0.79607843140000001" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NZ-q9-17B">
-                                <rect key="frame" x="89" y="710" width="236" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhP-FH-Sh7">
+                                <rect key="frame" x="316" y="24" width="57" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="k5Z-6D-nhb"/>
+                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="1eu-XV-v2X"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -727,7 +766,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TYk-Jk-G1x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19" y="1491"/>
+            <point key="canvasLocation" x="18.840579710144929" y="1490.625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AeW-aD-jsM">
@@ -774,13 +813,15 @@
                                     <segue destination="tQ2-6g-sFK" kind="presentation" modalPresentationStyle="fullScreen" id="01Y-wN-mPz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0U-vM-H5q">
-                                <rect key="frame" x="89" y="703" width="236" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nQ-84-a2N">
+                                <rect key="frame" x="317" y="28" width="60" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="hOo-rK-cqg"/>
+                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="n77-MG-4wd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1063,6 +1104,17 @@
                                     <action selector="choosePhotoTapped:" destination="tQ2-6g-sFK" eventType="touchUpInside" id="6U8-1j-nHM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeJ-et-Syd">
+                                <rect key="frame" x="309" y="44" width="60" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="CHJ-1g-YnG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="19f-6h-h9X"/>
                         <color key="backgroundColor" red="0.56078431370000004" green="0.50196078430000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1078,11 +1130,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="24A-Er-zbD"/>
-        <segue reference="VWd-f6-CAZ"/>
-        <segue reference="5rO-7r-yGM"/>
-        <segue reference="Cm0-CY-F9G"/>
-        <segue reference="8EH-3t-dZd"/>
+        <segue reference="01Y-wN-mPz"/>
+        <segue reference="Gae-Xq-T2b"/>
+        <segue reference="XfJ-wy-Zh4"/>
+        <segue reference="fUu-AG-4Wi"/>
+        <segue reference="8BO-g7-KMS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Plastic-Recycling-Symbol-on-Plastic-Containers_plastic-recycling-numbers-on-plastic-Products" width="800" height="594"/>
@@ -1097,6 +1149,7 @@
         <image name="download-3" width="259" height="195"/>
         <image name="download-4" width="225" height="225"/>
         <image name="globe.asia.australia.fill" catalog="system" width="128" height="121"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="lightbulb.fill" catalog="system" width="113" height="128"/>
         <image name="line.diagonal.arrow" catalog="system" width="128" height="113"/>
         <image name="mappin" catalog="system" width="105" height="128"/>
