@@ -12,12 +12,16 @@ class PhotoViewController: UIViewController, UIImagePickerControllerDelegate, UI
     var imagePicker = UIImagePickerController()
     
     
+    @IBOutlet weak var chooseButton: UIButton!
+    @IBOutlet weak var photoButton: UIButton!
     @IBOutlet weak var imageDisplay: UIImageView!
     
     @IBOutlet weak var imageDisplayText: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
+        roundButtons()
 
         // Do any additional setup after loading the view.
     }
@@ -38,7 +42,10 @@ class PhotoViewController: UIViewController, UIImagePickerControllerDelegate, UI
     
     
         
-        
+    func roundButtons() {
+        chooseButton.layer.cornerRadius = 10.0
+        photoButton.layer.cornerRadius = 10.0
+    }
     
     
 

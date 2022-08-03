@@ -44,7 +44,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="let's go -&gt;">
+                                        <fragment content="let's go &gt;&gt;">
                                             <attributes>
                                                 <font key="NSFont" size="12" name="Avenir-Book"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -61,6 +61,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="homeButton" destination="w3B-e1-ubI" id="nbz-ta-PXP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="gOy-S4-CHQ">
@@ -432,6 +435,7 @@
                         <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="OnN-TD-kK5" id="FAc-kp-iIm"/>
                         <outlet property="search" destination="j3N-2d-E78" id="T9N-3H-Ujs"/>
                     </connections>
                 </viewController>
@@ -1127,8 +1131,10 @@
                         <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="chooseButton" destination="25F-4e-BeO" id="0v2-BP-Y85"/>
                         <outlet property="imageDisplay" destination="ucC-a3-PMu" id="jOk-Ex-igk"/>
                         <outlet property="imageDisplayText" destination="W6c-Yh-oUW" id="Yny-XQ-J3y"/>
+                        <outlet property="photoButton" destination="079-lN-xJw" id="XPk-0w-xWO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CNt-Dr-brE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1138,7 +1144,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="01Y-wN-mPz"/>
-        <segue reference="3LS-aW-Hb8"/>
+        <segue reference="Gae-Xq-T2b"/>
         <segue reference="5rO-7r-yGM"/>
         <segue reference="Cm0-CY-F9G"/>
         <segue reference="8EH-3t-dZd"/>

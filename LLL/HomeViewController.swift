@@ -9,13 +9,16 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var homeButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        roundButton()
         // Do any additional setup after loading the view.
     }
     
-
+    func roundButton() {
+        homeButton.layer.cornerRadius = 10.0
+    }
     /*
     // MARK: - Navigation
 

@@ -12,6 +12,7 @@ import UIKit
 class EnRouteViewController: UIViewController {
 
    
+    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var search: UISearchBar!
     
     override func viewDidLoad() {
@@ -23,6 +24,10 @@ class EnRouteViewController: UIViewController {
  search.layer.cornerRadius = 20
         search.clipsToBounds = true
 
+    }
+    
+    func roundButtons() {
+        button.layer.cornerRadius = 10.0
     }
     /*
     // MARK: - Navigation
