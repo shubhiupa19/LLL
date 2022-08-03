@@ -450,42 +450,35 @@
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Quick Links" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BBk-P1-4n5">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Quick Links" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BBk-P1-4n5">
                                 <rect key="frame" x="12" y="386" width="390" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="0.63137254899999995" green="0.77647058820000003" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="28"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBZ-X4-arz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBZ-X4-arz">
                                 <rect key="frame" x="231" y="433" width="85" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Plastic and the Environment">
-                                            <attributes>
-                                                <font key="NSFont" size="7" name="Avenir-Heavy"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Plastic and the Environment">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="7"/>
                                     <color key="baseBackgroundColor" red="0.56078431370000004" green="0.79607843140000001" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="plasticButtonTapped:" destination="1vd-i5-5NC" eventType="touchUpInside" id="Oeg-3t-6Xx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Feq-t5-RP1">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Feq-t5-RP1">
                                 <rect key="frame" x="324" y="435" width="78" height="26"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Current Event: California Passes Law to Eliminate Single-Use Plastics">
-                                            <attributes>
-                                                <font key="NSFont" size="5" name="Avenir-Heavy"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="5"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Current Event: California Passes Law to Eliminate Single-Use Plastics"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Current Event: California Passes Law to Eliminate Single-Use Plastics">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="5"/>
                                     <color key="baseBackgroundColor" red="0.56078431370000004" green="0.79607843140000001" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -562,14 +555,8 @@
                                 <rect key="frame" x="20" y="433" width="99" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="EPA Facts &amp; Figures">
-                                            <attributes>
-                                                <font key="NSFont" size="9" name="Avenir-Heavy"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="EPA Facts &amp; Figures">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="9"/>
                                     <color key="baseBackgroundColor" red="0.56078431370000004" green="0.79607843140000001" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -585,17 +572,12 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zp6-yV-bOb">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zp6-yV-bOb">
                                 <rect key="frame" x="136" y="432" width="87" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Impact of Covid-19 Litter">
-                                            <attributes>
-                                                <font key="NSFont" size="8" name="Avenir-Heavy"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Impact of Covid-19 Litter">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="8"/>
                                     <color key="baseBackgroundColor" red="0.56078431370000004" green="0.79607843140000001" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -616,15 +598,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xab-sf-jGV"/>
                         <color key="backgroundColor" red="0.56078431370000004" green="0.50196078430000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="Zp6-yV-bOb" secondAttribute="bottom" constant="404" id="Gcd-AL-OMq"/>
-                            <constraint firstItem="Feq-t5-RP1" firstAttribute="top" secondItem="BBk-P1-4n5" secondAttribute="bottom" constant="8" id="JAk-fa-U9l"/>
-                            <constraint firstItem="Zp6-yV-bOb" firstAttribute="top" secondItem="ZJr-zU-HNn" secondAttribute="topMargin" constant="389" id="YSD-ZU-CJF"/>
-                            <constraint firstItem="XBZ-X4-arz" firstAttribute="top" secondItem="BBk-P1-4n5" secondAttribute="bottom" constant="8" id="byb-JO-lFq"/>
-                            <constraint firstItem="Zp6-yV-bOb" firstAttribute="leading" secondItem="ZJr-zU-HNn" secondAttribute="leadingMargin" constant="107" id="k3C-ig-AgO"/>
-                            <constraint firstItem="Zp6-yV-bOb" firstAttribute="top" secondItem="BBk-P1-4n5" secondAttribute="bottom" constant="8" id="riy-rs-wJU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Zp6-yV-bOb" secondAttribute="trailing" constant="180" id="wxZ-kZ-lui"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="wv" destination="L5J-UY-BSO" id="JO6-hN-peU"/>
@@ -1131,7 +1104,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="01Y-wN-mPz"/>
-        <segue reference="Gae-Xq-T2b"/>
+        <segue reference="3LS-aW-Hb8"/>
         <segue reference="XfJ-wy-Zh4"/>
         <segue reference="fUu-AG-4Wi"/>
         <segue reference="8BO-g7-KMS"/>
