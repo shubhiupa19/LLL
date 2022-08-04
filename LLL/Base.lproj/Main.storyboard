@@ -684,6 +684,18 @@
                                 <rect key="frame" x="87" y="413" width="238" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBL-Rb-xVB">
+                                <rect key="frame" x="20" y="50" width="56" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gFH-2N-ONF" kind="presentation" modalPresentationStyle="fullScreen" id="xxq-Re-fI5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="r5e-Jo-kko"/>
                         <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -759,6 +771,18 @@
                                     <segue destination="2pg-YJ-ni7" kind="presentation" modalPresentationStyle="fullScreen" id="1eu-XV-v2X"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRC-Up-6ZH">
+                                <rect key="frame" x="20" y="44" width="56" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gFH-2N-ONF" kind="presentation" modalPresentationStyle="fullScreen" id="tgn-YA-kP8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="r0b-hS-KE8"/>
                         <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -825,6 +849,18 @@
                                 <buttonConfiguration key="configuration" style="plain" title="AI Technology Camera"/>
                                 <connections>
                                     <segue destination="tQ2-6g-sFK" kind="presentation" modalPresentationStyle="fullScreen" id="01Y-wN-mPz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am8-P2-KJQ">
+                                <rect key="frame" x="17" y="44" width="56" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gFH-2N-ONF" kind="presentation" modalPresentationStyle="fullScreen" id="Qs4-hZ-4ps"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1144,10 +1180,11 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="01Y-wN-mPz"/>
-        <segue reference="Gae-Xq-T2b"/>
+        <segue reference="1eu-XV-v2X"/>
         <segue reference="5rO-7r-yGM"/>
         <segue reference="Cm0-CY-F9G"/>
         <segue reference="8EH-3t-dZd"/>
+        <segue reference="Qs4-hZ-4ps"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Let's Litter Less! (1)" width="500" height="500"/>
@@ -1156,6 +1193,7 @@
         <image name="Recycle001.svg" width="1200" height="1132"/>
         <image name="Screen Shot 2022-08-02 at 3.15.32 PM" width="1738" height="1214"/>
         <image name="Untitled_design-removebg-preview" width="500" height="500"/>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
         <image name="camera" catalog="system" width="128" height="94"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="cursorarrow" catalog="system" width="91" height="128"/>
